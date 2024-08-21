@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Мое резюме</title>
+</head>
+
+<body>
+  <div class="resume">
+    <div class="container">
+      <div class="resume_wrapper">
+        <div class="vertical-line"></div>
+        <nav>
+          <div class="navbar">
+            <a href="#fariza" class="firstNav">
+              <img class="vectorPicture" src="./img/Vector.png" alt="vector">
+              <img class="farizaPicture" src="./img/Fariza.png" alt="Fariza">
+            </a>
+            <div class="secondNav">
+              <a href="#projects">Portfolio</a>
+              <a href="#contacts">Написать мне</a>
+            </div>
+          </div>
+        </nav>
+
+        <div class="aboutMe">
+          <div class="firstAboutMeBlock">
+            <img class="girl" src="./img/girl.png" alt="girl">
+            <img class="arrowLeft" src="./img/arrowLeft.png" alt="arrowLeft">
+            <img class="farizaPic" src="./img/Fariza.png" alt="Fariza">
+            <p class="frontend">Я Frontend <br> разработчик</p>
+          </div>
+
+
+          <div class="secondAboutMeBlock">
+            <p>С фокусом на библиотек React и Vue, <br>
+              база данных MySQL и бэкенд-разработкой на Node.js.</p>
+            <button type="submit" class="btnTextMe" onclick="scrollToSection()">Написать мне</button>
+          </div>
+        </div>
+
+        <div class="skills">
+          <img class="arrowDown" src="./img/arrowDown.png" alt="arrowDown">
+          <div class="coloursBlocks">
+            <div class="yellowBlock"><a
+                href="https://www.udemy.com/certificate/UC-9e0f6ad9-6511-48ae-9b97-e82fe8c7622a/">
+                <img class="javaScript" src="./img/js.svg" alt="js">
+                <p class="language">JavaScript, React, Vue</p>
+              </a>
+            </div>
+            <div class="blueBlock">
+              <a href="https://www.freecodecamp.org/certification/FarizaZhakhansha/responsive-web-design">
+                <img class="html" src="./img/html.svg" alt="html">
+                <p class="language"> HTML, CSS, TailwindCSS, Bootstrap</p>
+              </a>
+            </div>
+            <div class="pinkBlock">
+              <img class="node" src="./img/node.svg" alt="">
+              <p class="language">Node.js, REST API, MySQL</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects" id="projects">
+          <div class="desc">
+            <a href="https://github.com/Fariza2709" class="textBlock">Мои работы:</a>
+            <img class="arrowDownProjects" src="./img/arrowDown.png" alt="">
+          </div>
+
+          <div class="blocks">
+            <div class="firstProjectBlock">
+              <div class="projectBlock">
+                <a href="https://github.com/Fariza2709/rick-and-morty-app">
+                  <img class="projectImg" src="./img/rick.png" alt="rick">
+                  <p class="projectText">Проект "Rick and Morty App"</p>
+                </a>
+              </div>
+
+              <div class="projectBlock">
+                <a href="https://github.com/Fariza2709/Landing-page1">
+                  <img class="projectImg" src="./img/pepsi.png" alt="pepsi">
+                  <p class="projectText">Начальная страница pepsi</p>
+                </a>
+              </div>
+            </div>
+
+            <div class="secondProjectBlock">
+              <div class="projectBlock"><a href="https://github.com/Fariza2709/ECOMMERCE">
+                  <img class="projectImg" src="./img/shop.png" alt="shop">
+                  <p class="projectText">Интернет магазин кроссовок</p>
+                </a>
+              </div>
+
+              <div class="projectBlock"><a href="https://fariza2709.github.io/weather-in-vue/">
+                  <img class="projectImg" src="./img/weather.png" alt="weather">
+                  <p class="projectText">Приложение погоды</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="educations">
+          <p class="educationTitle">Высшее образование</p>
+          <div class="education_wrapper">
+            <div class="educationPart">
+              <img class="educationNumbers" src="./img/one.png" alt="one">
+              <p class="educationDesc">Бакалавр. КазАТК (2008-2012) <br> Специализация: Организация перевозок и
+                движение</p>
+            </div>
+            <div class="educationPart">
+              <img class="educationNumbers" src="./img/two.png" alt="two">
+              <p class="educationDesc">Магистр. КУПС (2014-2016) <br> Специализация: Организация перевозок и движение
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="courses">
+          <p class="coursesTitle">Курсы:</p>
+          <div class="courses_wrapper">
+            <div class="educationPart">
+              <img class="educationNumbers" src="./img/one.png" alt="one">
+              <p class="educationDesc">Веб-разработка (Udemy, 2022) комплексный курс по веб-разработке, включая HTML,
+                CSS и JavaScript</p>
+            </div>
+            <div class="educationPart">
+              <img class="educationNumbers" src="./img/two.png" alt="two">
+              <p class="educationDesc">Адаптивный веб-дизайн (FreeCodeCamp, 2023) основы адаптивного веб-дизайна и
+                создание отзывчивых
+                макетов
+              </p>
+            </div>
+
+            <div class="educationPart">
+              <img class="educationNumbers" src="./img/three.png" alt="three">
+              <p class="educationDesc">JavaScript алгоритмы и структуры данных (FreeCodeCamp, 2023) изучение основ
+                JavaScript,
+                алгоритмов и
+                структур данных.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contacts" id="contacts">
+          <div class="contactsTitle">
+            <p class="contactTitle">Контакты</p>
+            <img class="arrowDownContacts" src="./img/arrowDown.png" alt="arrowDown">
+          </div>
+          <form action="" class="formSection">
+            <label class="yellow" for="name">Имя</label>
+            <input class="inputName" type="text" id="name" placeholder="Фариза" required>
+            <br>
+            <label class="blue" for="email">Ваш email</label>
+            <input class="inputEmail" type="email" id="email" placeholder="fakosh2709@gmail.com" required>
+            <br>
+            <label class="orange" for="telephone">Номер телефона</label>
+            <input class="inputTel" type="tel" id="telephone" name="telephone" placeholder="Введите ваш номер" required>
+            <br>
+            <label class="pink" for="message">О проекте</label>
+            <input type="text" id="message" placeholder="Ваше сообщение..." required>
+            <br>
+            <button type="submit" class="btnSendMe" onclick="sendMessage()">Отправить мне</button>
+
+            <p class="successfulDispatch" style="display: none;">Сообщение успешно отправлено.</p>
+            <p class="deliveryFailure" style="display: none;">Ошибка отправки</p>
+          </form>
+        </div>
+
+        <footer>
+          <div class="footerBlock">
+            <img class="vectorPictureFooter" src="./img/Vector.png" alt="vector">
+            <img class="farizaPictureFooter" src="./img/Fariza.png" alt="Fariza">
+          </div>
+          <div class="socialMedia">
+            <a class="linkedin" href="https://www.linkedin.com/in/fariza-zhakhansha-03a31323b/">Linkedin</a>
+            <a class="github" href="https://github.com/Fariza2709">GitHub</a>
+            <a class="tiktok" href="https://www.tiktok.com/@.fariza27">TikTok</a>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="./main.js"></script>
+
+</body>
+
+</html>

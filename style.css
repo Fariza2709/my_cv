@@ -1,0 +1,752 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 1200px;
+}
+
+.resume_wrapper {
+  display: block;
+  margin-left: 100px;
+  background-image: url('./img/bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1070px;
+}
+.vertical-line {
+  width: 2px;      
+  height: auto;        
+  background-color: black; 
+}
+
+nav {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.navbar {
+  padding-top: 45px;
+  display: flex;
+  justify-content: center;
+  width: 513px;
+}
+
+.firstNav {
+  margin-right: 20px;
+}
+
+.secondNav {
+  margin-left: 50px;
+}
+
+a {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.vectorPicture {
+  width: 30px;
+}
+
+.farizaPicture {
+  width: 60px;
+  padding: 5px;
+}
+
+.aboutMe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+}
+
+.firstAboutMeBlock {
+  margin-left: 23px;
+}
+.girl {
+  width: 70px;
+  display: inline-block;
+  margin-left: 23px;
+  margin-right: 44px;
+}
+
+.arrowLeft {
+  margin-right: 25px;
+}
+
+.farizaPic {
+  transform: rotate(-10deg);
+  padding: 10px;
+}
+
+.frontend {
+  font-size: 50px;
+  text-align: left;
+  font-weight: 600;
+  line-height: 40px;
+  margin-top: 30px;
+}
+
+.secondAboutMeBlock {
+  margin-right: 68px;
+  font-size: 20px;
+  width: 477px;
+  height: 168px;
+  padding-top: 54px;
+}
+
+.btnTextMe {
+  background-color: black;
+  width: 130px;
+  height: 40px;
+  color: white;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+.btnTextMe:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.coloursBlocks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrowDown {
+  width: 60px;
+  height: 70px;
+  margin-top: 50px;
+  margin-left: 150px;
+  transform: rotate(4deg);
+}
+
+.yellowBlock {
+  width: 207px;
+  height: 277px;
+  background-color: yellow;
+  border: 2px solid orange;
+  border-radius: 10px;
+  transform: rotate(-15deg);
+  margin-right: 63px;
+  padding: 100px 30px 0 30px;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+
+.yellowBlock:hover {
+  transform: scale(1.1) rotate(-15deg);
+}
+
+.javaScript {
+  width: 49px;
+  height: 55px;
+  background-color: black;
+}
+
+.language {
+  font-size: 20px;
+  text-align: left;
+}
+
+.blueBlock {
+  width: 207px;
+  height: 277px;
+  background-color: cornflowerblue;
+  border: 2px solid darkblue;
+  border-radius: 10px;
+  transform: rotate(15deg);
+  padding: 100px 30px 0 30px;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+
+.blueBlock:hover {
+  transform: scale(1.1) rotate(15deg);
+}
+
+.html {
+  width: 49px;
+  height: 55px;
+  background-color: black
+}
+
+.pinkBlock {
+  width: 207px;
+  height: 277px;
+  background-color: pink;
+  border: 2px solid darkorchid;
+  border-radius: 10px;
+  transform: rotate(-15deg);
+  margin-left: 63px;
+  padding: 100px 30px 0 30px;
+  cursor: pointer;
+  transition: transform 0.5s ease
+}
+
+.pinkBlock:hover {
+  transform: scale(1.1) rotate(-15deg);
+}
+
+.node {
+  width: 49px;
+  height: 55px;
+  background-color: black
+}
+
+.projects {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+  padding-top: 100px;
+}
+
+.blocks {
+  display: flex;
+  cursor: pointer;
+}
+
+.projectBlock {
+  width: 300px;
+  height: 200px;
+  border: 1px solid gray;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.projectImg {
+  width: 234px;
+  height: 130px;
+  display: block;
+  margin: 0 auto;
+}
+
+a.textBlock {
+  font-size: 25px;
+  background-color: pink;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 50px;
+  padding: 10px;
+}
+
+.projectText {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.arrowDownProjects {
+  width: 60px;
+  height: 70px;
+  margin-top: 20px;
+  margin-left: 150px;
+  transform: rotate(-45deg);
+}
+.educations, .courses {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+}
+
+.educationTitle {
+  font-size: 25px;
+  background-color: pink;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+.education_wrapper, .courses_wrapper {
+  height: 250px;
+  width: 500px;
+  border: 3px dotted gray;
+}
+
+.educationPart {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px;
+}
+
+.educationNumbers {
+  width: 80px;
+  height: 70px;
+  margin-right: 20px;
+}
+
+.courses {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+}
+
+.courses_wrapper {
+  height: 342px;
+  width: 500px;
+  border: 3px dotted gray;
+}
+
+.coursesTitle {
+  font-size: 25px;
+  background-color: pink;
+  border-radius: 10px;
+  text-align: center;
+  margin-right: 152px;
+  padding: 10px;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 350px;
+  margin-top: 50px;
+}
+
+.contactTitle {
+  font-size: 25px;
+  background-color: pink;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+.arrowDownContacts {
+  width: 60px;
+  height: 70px;
+  margin-top: 20px;
+  margin-left: 150px;
+  transform: rotate(-50deg);
+}
+
+form.formSection {
+  width: 450px;
+  height: 300px;
+  padding: 20px 30px;
+}
+
+label {
+  font-size: 17px;
+  color: black;
+  width: 80px;
+  text-align: right; 
+  border: none;
+  border-left: 2px solid black;
+  padding: 5px;
+}
+
+input {
+  display: inline-block;
+  padding: 5px;
+  border: none;
+  border-bottom: 2px solid black;
+  margin: 10px 0;
+  width: 260px;
+  background-color: transparent;
+  outline: none;
+}
+
+input::placeholder {
+  font-size: 15px;
+}
+
+.inputName {
+  width: 301px;
+}
+
+.inputTel {
+  width: 215px;
+}
+
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: cornflowerblue;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.btnSendMe {
+  background-color: black;
+  width: 130px;
+  height: 40px;
+  color: white;
+  font-size: 15px;
+  margin-top: 15px;
+  float: inline-start;
+}
+
+.successfulDispatch {
+  color: #000;
+  font-size: 18px;
+  position: relative;
+  top: 68px;
+  right: 127px;
+  height: 40px;
+}
+
+.deliveryFailure {
+  color: red;
+  font-size: 18px;
+  position: relative;
+  top: 68px;
+  right: 127px;
+  height: 40px;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 150px;
+  width: 100%;
+}
+
+.footerBlock {
+  display: flex;
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  width: 320px;
+}
+
+a.linkedin {
+  transition: all 0.5s ease;
+  background-color: pink;
+  font-size: 25px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+a.linkedin:hover {
+  transform: scale(1.1);
+}
+
+a.github {
+  transition: all 0.5s ease;
+  background-color: orange;
+  font-size: 25px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+a.github:hover {
+  transform: scale(1.1);
+}
+
+a.tiktok {
+  transition: all 0.5s ease;
+  background-color: cornflowerblue;
+  font-size: 25px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+a.tiktok:hover {
+  transform: scale(1.1);
+}
+
+
+.vectorPictureFooter{
+  width: 30px;
+}
+
+.farizaPictureFooter {
+  width: 60px;
+  padding: 5px;
+}
+
+@media(max-width: 328px) {
+  .container {
+    width: 328px;
+  }
+  .resume_wrapper {
+    margin-left: 30px;
+    width: 270px;
+  }
+  .navbar {
+    width: 270px;
+  }
+  a {
+    font-size: 15px;
+  }
+  
+  .vectorPicture {
+    width: 20px;
+  }
+  
+  .farizaPicture {
+    width: 45px;
+  }
+
+  .aboutMe {
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+  }
+  .firstAboutMeBlock {
+    margin-top: 20px;
+  }
+  .secondAboutMeBlock {
+    margin-right: 0;
+    font-size: 15px;
+    padding-top: 0;
+    width: 240px;
+    margin-top: 20px;
+}
+  .secondNav {
+    margin-left: 0;
+  }
+
+  .girl {
+    width: 35px;
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .arrowLeft {
+    margin-right: 0;
+    width: 40px;
+  }
+  
+  .farizaPic {
+    width: 50px;
+  }
+
+  .frontend {
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 0;
+  }
+
+  .btnTextMe {
+    display: none;
+  }
+
+  .arrowDown {
+    display: none;
+  }
+
+  .coloursBlocks {
+    flex-direction: column;
+  }
+
+  .yellowBlock {
+    width: 175px;
+    margin-right: 0;
+  }
+
+  .blueBlock {
+    width: 175px;
+  }
+
+  .pinkBlock {
+    width: 175px;
+  }
+
+  .language {
+    font-size: 15px;
+  }
+
+  .projects {
+    width: 100%;
+    flex-direction: column;
+    margin-top: 0;
+    height: auto;
+  }
+
+  .arrowDownProjects {
+    display: none;
+  } 
+  .blocks {
+    flex-direction: column;
+  }
+
+  a.textBlock {
+    font-size: 20px;
+    margin-left: 0;
+  }
+
+  .firstProjectBlock {
+    margin-top: 30px;
+  }
+
+  .projectBlock {
+    width: 200px;
+    height: 160px;
+    padding: 10px;
+  }
+
+  .projectText  {
+    font-size: 10px;
+  }
+
+  .projectImg {
+    width: 160px;
+    height: 97px;
+    margin-top: 20px;
+  }
+
+  .educations {
+    flex-direction: column;
+  }
+
+  .educationTitle {
+    font-size: 15px;
+    margin-top: 20px;
+  }
+
+  .education_wrapper {
+    width: 250px;
+    height: auto;
+    border:none;
+  }
+  
+  .educationPart {
+    margin: 0 0 10px 0;
+  }
+
+  .educationNumbers {
+    width: 50px;
+    height: 40px;
+    margin: 5px;
+  }
+
+  .educationDesc {
+    font-size: 15px;
+  }
+
+  .courses {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .coursesTitle {
+    margin-right: 0;
+    font-size: 15px;
+    margin-top: 20px;
+  }
+
+  .courses_wrapper {
+    height: auto;
+    width: 250px;
+    margin-top: 30px;
+    border:none;
+  }
+
+  .contacts {
+    flex-direction: column;
+  } 
+
+  .contactTitle {
+    font-size: 20px;
+  }
+
+  .arrowDownContacts {
+    display: none;
+  }
+
+  form.formSection {
+    width: 270px;
+  }
+
+  label {
+    font-size: 10px;
+  }
+
+  .inputName  {
+    width: 175px;
+  }
+  .inputEmail {
+    width: 150px;
+  }
+  .inputTel {
+    width: 124px;
+  }
+
+  input {
+    width: 150px;
+  }
+
+  input::placeholder {
+    font-size: 12px;
+  }
+
+  .btnSendMe {
+    width: 80px;
+    height: 30px;
+    font-size: 10px;
+  }
+
+  footer {
+    height: auto;
+  }
+
+  .vectorPictureFooter {
+    width: 20px;
+  }
+
+  .farizaPictureFooter {
+    width: 40px;
+  }
+
+  a.linkedin {
+    font-size: 10px;
+  }
+
+  a.github {
+    font-size: 10px;
+  }
+
+  a.tiktok {
+    font-size: 10px;
+  }
+
+  .footerBlock {
+    margin-left: 25px;
+  }
+
+  .socialMedia {
+    justify-content: center;
+  }
+
+  
+}
+
